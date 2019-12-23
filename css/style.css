@@ -1,0 +1,376 @@
+/*------------------------------------------------
+--------------------------------------------------
+HEADER TOP
+--------------------------------------------------
+------------------------------------------------*/
+body{
+    font-family: "Roboto", sans-serif;
+    background-color: white;
+    
+}
+header {
+    height: 850px;
+    background-image: url(..//img/background/bg-promo.jpg);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+header div.menu{
+    height: 65px;
+}
+header .logo{
+    display: block;
+    width: 125px;
+    margin-top: 30px;
+    margin-left: 215px;
+}
+header nav ul{
+    list-style-type: none;
+    text-align: right; 
+    margin-right: 215px;  
+}
+header nav ul li{
+    color: white;
+    margin-top: 40px;
+    display: inline-block;
+    margin-right: 20px;
+    font-size: 18px;
+    font-weight: 400;
+}
+div.text h1{
+    text-shadow: 0 50px 30px rgba(64, 72, 90, 0.3);
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 90px;
+    font-weight: 300;
+}
+div.text h1 span{    
+    color: #4ba9ff;
+}
+header div.text h1{
+    margin-top: 285px;
+    
+}
+header div.arrow a{
+    margin-top: 325px;
+}
+
+.arrow{
+    height: 370px;
+    align-items: flex-end;
+    display: flex;
+    justify-content: center;
+}
+
+/*-----------------------------
+-------------------------------
+SECTION-ABOUT
+-------------------------------
+------------------------------*/
+section{
+    background-color: white;
+}
+section div.about h2{
+    color: #40485a;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+    margin-left: 215px;
+}
+section div.about img{
+    margin-left: 215px;
+}
+section div.lorem{
+    margin-top: 100px;
+    margin-bottom: 115px;
+    
+}
+section div.lorem p{
+    color: #6a707d;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+    margin-right: 215px;
+    
+}
+section div.about{
+    margin-top: 105px;
+}
+/*-----------------------------
+-------------------------------
+SECTION-DEVELOPMENT
+-------------------------------
+------------------------------*/
+section div.development{
+    margin-top: 95px;
+    /* height: 800px; */
+}
+section div.development h2{
+    color: #40485a;
+    font-family: "Roboto", sans-serif;
+    font-size: 48px;
+    font-weight: 300;
+}
+section div.what{
+    
+    margin-top: 75px;
+}
+section div.design, div.settings, div.grafic{
+    width: 370px;
+    height: 384px;
+    margin: auto;
+    box-shadow: 0 30px 60px rgba(64, 72, 90, 0.15);
+    transition: 0.3s;
+    background-color: #ffffff;
+
+}
+section div.design:hover, div.settings:hover, div.grafic:hover{
+    box-shadow: 0 30px 60px #4ca9ff;
+}
+section div.what img{
+    margin-top: 40px;
+}
+section div.what h3{
+    margin-top: 45px;
+    color: #40485a;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+section div.what p{
+    display: block;
+    margin: 0 auto;
+    width: 262px;
+    height: 78px;
+    color: #6a707d;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+section div.button{
+    margin-top: 65px;  
+    color: #4ca9ff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 26px;
+    text-transform: uppercase;
+}
+section div.button a{
+    text-decoration: none;
+}
+section div.line img{
+    margin-top: -25px;
+}
+/*-----------------------------
+-------------------------------
+SECTION-FOOTER
+-------------------------------
+------------------------------*/
+footer{
+    margin-top: 125px;
+    min-height: 350px;
+    background-image: url(../img/background/footer.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+footer div a img{
+    display: block;
+    width: 125px;
+    margin-top: 95px;
+    margin-left: 215px;
+}
+footer div p{
+    /* display: inline-block; */
+    margin-left: 215px;
+    margin-top: 27px;
+    color: #cfd2ff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 28px;
+    letter-spacing: 0.9px;
+}
+
+footer div.contact{
+    display: inline-block;
+    text-align: center;
+    width: 200px;
+    height: 46px;
+    margin-top: 155px;
+    margin-right: 215px;
+    border-radius: 23px;
+    background-color: #4ca9ff;
+}
+footer div.contact a{
+    display: inline-block;
+    text-decoration: none;
+    width: 110px;
+    height: 15px;
+    margin: 12px auto;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+footer div.contact:hover{
+    box-shadow: 0 30px 30px rgba(76, 169, 255, 0.3);
+}
+
+footer div p span{
+    color: #4ca9ff;
+}
+footer div.copy p{
+    
+    text-align: start;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+    
+}
+footer div.designed p{
+    text-align: center;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+    font-size: 14px;
+    font-weight: 400;
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 991px) {
+    header nav ul {
+        text-align: center;
+        margin-right: 0px;
+    }
+    header .logo {
+        margin: auto;
+        padding-top: 30px;
+    }
+    div.text h1{
+        font-size: 45px;
+    }
+    section div.about h2 {
+        text-align: center;
+        margin-left: 0px;
+        font-size: 32px;
+    }   
+    section div.about img {
+        margin-left: 100px;
+    } 
+    section div.lorem p{
+        margin-right: 0;
+        text-align: center;
+    }
+    section div.images img{
+        max-width: 345px;
+    }
+    footer div.logo a img{
+        
+        margin-left: 0;
+        margin: 95px auto;
+    }
+    footer div.logo p{
+        text-align: center;
+    }
+    footer div.contact{
+        display: none;
+    }
+    footer div.copy p{
+        margin: 20px auto;
+        text-align: center;
+    }
+    footer div.designed p{
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
+
+
+
+@media (max-width: 767px) {
+    .logoluna{
+        justify-content: center !important;
+    }
+
+    .logomenu{
+        
+        justify-content: center !important;
+
+    }
+    section div.images{
+        text-align: center;
+    }
+
+    header .logo {
+        margin: auto;
+        padding-top: 30px;
+    }
+
+    header nav ul {
+        text-align: center;
+        margin-right: 0px;
+    }
+    div.text h1{
+        font-size: 45px;
+    }
+    section div.about h2 {
+        text-align: center;
+        margin-left: 0px;
+        font-size: 32px;
+    }
+    section div.development h2{
+        font-size: 32px;
+    }
+    section div.lorem p {
+        margin-right: 0px;
+        text-align: center;
+    }
+    footer div.logo a img{
+        
+        margin-left: 0;
+        margin: 95px auto;
+    }
+    footer div.logo p{
+        margin: 0 auto;
+        text-align: center;
+        margin-left: 0;
+    }
+    footer div.contact{
+        display: none;
+    }
+    footer div.copy p{
+        margin: 20px auto;
+        text-align: center;
+    }
+    footer div.designed p{
+        margin: 20px auto;
+        text-align: center;
+    }
+}
+
